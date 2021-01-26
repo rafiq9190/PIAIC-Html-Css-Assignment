@@ -3,740 +3,887 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+<link rel="stylesheet" href="./style.css"/>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href='./style.css'>
-    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <title>Css Final Assignment</title>
+    <title>CSS Final Assignment</title>
   </head>
   <body>
+    
+
+    <!-- Header start -->
     <header>
-    <div class="bg-dark icons-list">
-    <div class="row">
-        <div class="col-sm">
+        <div class="header-main bg-dark">
             <div class="left-icon">
                 <i class="fa fa-facebook" aria-hidden="true"></i>
                 <i class="fa fa-twitter" aria-hidden="true"></i>
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <i class="fa fa-instagram" aria-hidden="true"></i>
             </div>
+            <div class="col-sm right-icon">
+                <i class="fa fa-phone" aria-hidden="true"><span style="color:white">+9212345678</span></i>
+                <i class="fa fa-phone" aria-hidden="true"><span style="color:white">+9212345678</span></i>
+                <button class="btn"> Call Me</button>
+              </div>
+
         </div>
-        <div class="col-sm">
-          
-        </div>
-        
-        <div class="col-sm right-icon">
-            <i class="fa fa-phone" aria-hidden="true"><span style="color:white">+9212345678</span></i>
-            <i class="fa fa-phone" aria-hidden="true"><span style="color:white">+9212345678</span></i>
-            <button class="btn"> Call Me</button>
-          </div>
+    </header>
+     <!-- Header ended -->
+<!-- Nav sectoin started -->
+
+<nav class="navbar navbar-expand-lg navbar-light " style="margin-left:20px">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"  style="float: left; padding:30px"><img src="./images/logo-color.png"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNav"  style=" padding:30px">
+        <ul class="nav ">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">WHY US </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SERVICES</a>
+            </li> 
+            <li class="nav-item">
+                <a class="nav-link" href="#">PORTFOLIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROCESS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">REVIEWS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">OUR SKILLS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">CONTACT US</a>
+              </li>
+          </ul>
       </div>
     </div>
-  </header>
+  </nav>
 
-    <!-- end icons section -->
+<!-- Nav sectoin ended -->
+    <!-- Slider section start -->
+    
 
+    <div class="slider-main">
+       
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  mt-2 d-md-block">
+                    <h5>We Are Experts</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <button class="btn-slider">Read More</button> 
+                  </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  mt-2 d-md-block">
+                    <h5>We Are MERN Stacks</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <button class="btn-slider">Read More</button> 
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./images/slide2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption  mt-2 d-md-block">
+                    <h5>We Are DevOps</h5>
+                    <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                    <button class="btn-slider">Read More</button> 
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </a>
+          </div>
+          
+    </div>
 
+    <!-- Why us section started -->
 
-    <!-- Navbar start -->
-
-    <div class="main-nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white ">
-            <a class="navbar-brand" href="#"><img src="./images/logo-color.png"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class=" container  d-flex w-100 collapse navbar-collapse  "  id="navbarNav" style="display: block;">
-              <ul class="navbar-nav mr-auto  ">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Why Us <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="#">Process</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Reviews</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Our Skills</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link " href="#">Contact Us</a>
-                  </li>
+    <div class="whyUs-section">
+        <div class="container">
+            <div class="row">
+              <div class="col-sm">
                 
-
-              </ul>
+              </div>
+              <div class="col-lg-8 col-sm-12">
+                <h1 style="text-align: center;padding-top: 41px; font-weight: 600;"> Our <span style="color:#668E1A; text-align: center!important;padding-top:20px">Advantages</span></h1>
+            <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+              </div>
+              <div class="col-sm">
+                
+              </div>
             </div>
-          </nav>
-    </div>
-
-    <!-- Navbar end -->
-
-    <!-- carousel start -->
-
-<div class="slider-main">
-  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" id="why">
-    <ol class="carousel-indicators">
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-        <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="images/slide1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>First slide label</h5>
-                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-                <button
-                    style="background-color: rgb(240, 186, 8); height: 25px; color: white; width: 160px; height: 40px; border: none; border-radius: 5px;">READ MORE
-                    </button>
+          </div>
+          <div class=" container why-section-inner">
+            <div class="row">
+              <div class="col-md-3 col-sm-12">
+                <img src="./images/innovation.png"  >
+              <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur </p>
+              </div>
+              <div class="col-md-3  col-sm-12">
+                <img src="./images/quality.png">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+              </div>
+              <div class="col-md-2 col-sm-12">
+                <img src="./images/exprience.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+              </div>
+              <div class="col-md-2  col-sm-12">
+                
+                <img src="./images/happy clients.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+              </div>
+              <div class="col-md-2 col-sm-12">
+                <img src="./images/support.jpg">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+              </div>
             </div>
-        </div>
-        <div class="carousel-item">
-            <img src="./images/slide1.jpg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Second slide label</h5>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <button
-                    style="background-color: rgb(240, 186, 8); height: 25px; color: white; width: 160px; height: 40px; border: none; border-radius: 5px;">READ MORE
-                    </button>
-            </div>
-        </div>
-        <div class="carousel-item">
-            <img src="images/slide2.jpeg" class="d-block w-100" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Third slide label</h5>
-                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+          </div>
 
-                <button
-                    style="background-color: rgb(240, 186, 8); height: 25px; color: white; width: 160px; height: 40px; border: none; border-radius: 5px;">READ MORE
-                    </button>
-            </div>
-        </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </a>
-</div>
-    </div>
-
-
-      <!-- carousel end -->
-      
-      <!-- Advantage section start -->
-
-
-
-      <div class="Advantage-sec">
-        
-        <div class="row">
+     <!-- <div class="row">
           
           <div class=" advantage-details col-md-12  col-sm-12">
             <h1> Our <span style="color:#668E1A">Advantages</span></h1>
             <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
           </div>
          
-        </div>
-        <div class="why-reason">
-          <div class="row">
-            <div class="col-md-3 col-sm-12">
-              <img src="./images/innovation.png"  >
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur </p>
-            </div>
-            <div class="col-md-2  col-sm-12">
-              <img src="./images/quality.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-            </div>
-            <div class="col-md-2 col-sm-12">
-              <img src="./images/exprience.jpg">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-            </div>
-            <div class="col-md-2  col-sm-12">
-              
-              <img src="./images/happy clients.jpg">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-            </div>
-            <div class="col-md-2 col-sm-12">
-              <img src="./images/support.jpg">
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-            </div>
-          </div>
-        </div>
+        </div> -->
+    </div>
+    <!-- Why us section ended -->
 
+    <!-- About us section started -->
+    <div class=" container-fluid main-about">
+      <h1 style="text-align: center;padding-top:20px">About <span style="color:#668E1A">Us</span> </h1>
+      <div class="  row">
+        <div class="col">
+          <p style="padding:30px 0 0 50px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio at id omnis nisi. Autem voluptas sed ab corporis veritatis doloremque facilis odit? Officia sed dolores alias quo accusamus eos eius?</p>
+          <p style="padding:30px 0 0 50px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio at id omnis nisi. Autem voluptas sed ab corporis veritatis doloremque facilis odit? Officia sed dolores alias quo accusamus eos eius?</p>
+          <button class="btn-about">Read More</button>
+        </div>
+        <div class="col back-sec">
+          <img src="./images/why-img.png"/>
+        </div>
       </div>
 
-<!-- Advantage section ended -->
+    </div>
 
 
-<!-- About us section -->
+    <!-- services section started -->
+    
 
-      <div class="main-about">
-        <h1 style="text-align: center;padding-top:20px">About <span style="color:#668E1A">Us</span> </h1>
+
+
+
+
+    
+    <div  class=" container services-sec">
+      <div class="row">
+        <div class="col-sm">
+          
+        </div>
+        <div class="col-lg-8 col-sm-12">
+          <h1 style="text-align: center;padding-top: 41px; font-weight: 600;"> Our <span style="color:#668E1A; text-align: center!important;padding-top:20px">Services</span></h1>
+      <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+        </div>
+        <div class="col-sm">
+          
+        </div>
+        <div class="container service">
+          <div class="row">
+            <div class="col-md-3 col-sm-12 service-icon">
+              <div class="service-icons">
+                <i class="fa fa-star-o " aria-hidden="true"></i>
+              </div>
+              <div class="service-details">
+                <h3>MERN Stack</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+                <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
+              </div>
+              
+            
+            </div>
+            <div class="col-md-3 col-sm-12 service-icon">
+              <div class="service-icons">
+                <i class="fa fa-star-o " aria-hidden="true"></i>
+              </div>
+              <div class="service-details">
+                <h3>Web Application</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+                <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
+              </div>
+              
+            
+            </div>
+            <div class="col-md-3 col-sm-12 service-icon">
+              <div class="service-icons">
+                <i class="fa fa-star-o " aria-hidden="true"></i>
+              </div>
+              <div class="service-details">
+                <h3>Serverless Aws</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+                <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
+              </div>
+              
+            
+            </div>
+            <div class="col-md-3 col-sm-12 service-icon">
+              <div class="service-icons">
+                <i class="fa fa-star-o " aria-hidden="true"></i>
+              </div>
+              <div class="service-details">
+                <h3>DevOps</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
+                <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
+              </div>
+              
+            
+            </div>
+            
+          </div>
+        
+        </div>
+      </div>
+    
+      
+    
+      
+    </div>
+
+
+
+    <!-- services section ended -->
+
+    <!-- Portfolio section start -->
+
+    <div class=" container-fluid portfilo-main ">
+
+      <div class="row">
+        
+        <div class="container col-md-8" >
+        <div class=" services-details col-md-12  col-sm-12" style="background-color:#212121!important;">
+          <h1 style="color:white"> Our  <span style="color:#668E1A">Porfolio</span></h1>
+          <p style="text-align: center;padding:20px 100px 20px 100px;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+        </div>
+      </div>
+
+      </div>
+       
+      <ul class=" container-fluid nav nav-pills mb-3 container" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+            <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab"
+                aria-controls="pills-home" aria-selected="true">HTML</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab"
+                aria-controls="pills-profile" aria-selected="false">CSS</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab"
+                aria-controls="pills-contact" aria-selected="false">JavaScript</a>
+        </li>
+        <li class="nav-item" role="presentation">
+            <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-logo" role="tab"
+                aria-controls="pills-contact" aria-selected="false">BootCamp 2020</a>
+        </li>
+       
+    </ul>
+
+    <div class="tab-content container-fluid" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <div class="port">
+              <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/w1.jpg" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Chapter-1 HTML</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./ch_1/index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_1" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/w2.jpg" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Chapter-2 HTML</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./ch_2/index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_2" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/w3.jpg" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Chapter-3 HTML</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./ch_3/index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_3" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  </div>
+                  <!-- HTML second card row start here -->
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w4.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-4a HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_4(a)/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_4(a)" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w5.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-4b HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_4(b)/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_2(b)" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w6.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-5 HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_5/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_5" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    </div>
+                    <!-- HTML second card row end now here -->
+
+                    <!-- HTML Third card row start here -->
+                  <div class="row">
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w7.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-6 HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_6/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_6" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w8.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-7 HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_7/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_7" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-sm">
+                      <div class="card" style="width: 18rem;">
+                        <img src="./images/w2.jpg" class="card-img-top" alt="image">
+                        <div class="card-body">
+                          <h5 class="card-title">Chapter-9 And 10 HTML</h5>
+                          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                          <a href="./ch_9-10/index.html" class="btn btn-primary">Run File</a>
+                          <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_9-10" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    </div>
+                    <!-- HTML third card row  end now  here -->
+                   
+                </div>
+                
+                    
+              </div>
+               
+            </div>
+            
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+            <div class="port">
+               <div class="container">
+                <div class="row">
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/logo1.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Chapter-11-12 CSS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./ch_11-12/index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_11-12" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/logo2.png" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Chapter-13 CSS</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./ch_13/index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/ch_7" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-sm">
+                    <div class="card" style="width: 18rem;">
+                      <img src="./images/w2.jpg" class="card-img-top" alt="image">
+                      <div class="card-body">
+                        <h5 class="card-title">Final CSS Assingment</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="./index.html" class="btn btn-primary">Run File</a>
+                        <a style="padding:5px" href="https://github.com/rafiq9190/PIAIC-Html-Css-Assignment/tree/master/css_final_assignment" class="btn btn-primary"><i class="fa fa-github" aria-hidden="true" style="padding:5px"></i>GitHub</a>
+                      </div>
+                    </div>
+                  </div>
+                 
+                  </div>
+               </div>
+            </div>
+            <div class="port">
+                
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="port">
+                
+            </div>
+            <div class="port">
+               
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-logo" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="port">
+              
+            </div>
+            <div class="port">
+               
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-marketing" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="port">
+               
+            </div>
+        </div>
+        <div class="tab-pane fade" id="pills-advertisement" role="tabpanel" aria-labelledby="pills-contact-tab">
+            <div class="port">
+                
+            </div>
+            <div class="port">
+               
+            </div>
+        </div>
+    </div>
+      
+     
+      
+
+    </div>  
+    
+
+    <!-- porfoilo section ended -->
+
+    <!-- process section start -->
+
+    <div  class=" container-fluid process">
+     
+      <div class="row">
+        <div class="col"></div>
+        <div class="col-md-8">
+      <div class=" services-details col-md-12  col-sm-12">
+        <h1> Our <span style="color:#668E1A">Process</span></h1>
+        <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+      </div>
+    </div>
+    <div class="col"></div>
+    </div>
+      <div class="container inner-proces">
         <div class="row">
           <div class="col">
-            <p style="padding:30px 0 0 50px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio at id omnis nisi. Autem voluptas sed ab corporis veritatis doloremque facilis odit? Officia sed dolores alias quo accusamus eos eius?</p>
-            <p style="padding:30px 0 0 50px">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio at id omnis nisi. Autem voluptas sed ab corporis veritatis doloremque facilis odit? Officia sed dolores alias quo accusamus eos eius?</p>
-            <button class="btn-about">Read More</button>
+            <span class="number">1</span>
+            <div class="img-outer">
+              <img src="./images/process-1.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">REQUEST CALL</h6>
+              <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
           </div>
-          <div class="col back-sec">
-            <img src="./images/why-img.png"/>
+          <div class="col">
+            <span class="number">2</span>
+            <div class="img-outer">
+              <img src="./images/consultation.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">CONSULTATION</h6>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+          </div>
+          <div class="col">
+            <span class="number">3</span>
+            <div class="img-outer">
+              <img src="./images/planing.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">PLANING</h6>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+          </div>
+          <div class="col">
+            <span class="number">4</span>
+            <div class="img-outer">
+              <img src="./images/work-process.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">WORK PROCESS</h6>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+          </div>
+          <div class="col">
+            <span class="number">5</span>
+            <div class="img-outer">
+              <img src="./images/correcting.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">CORRECTING</h6>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+          </div>
+          <div class="col">
+            <span class="number">6</span>
+            <div class="img-outer">
+              <img src="./images/deliver.png"/>
+            </div>
+            <h6 style="text-align: center;margin-top:10px">DELIVER</h6>
+            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+          </div>
+  
+        </div>
+        </div>
+        </div>
+  <!-- process section ended -->
+
+  <!-- People About Us start -->
+<div class=" container-fluid main-about">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-md-8 ">
+  <div class=" services-details  ">
+    <h1> People <span style="color:#668E1A">About Us</span></h1>
+    <p style="padding:0 100px 0 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+  </div>
+</div>
+  <div class="col"></div>
+</div>
+
+  <div id="carouselExampleIndicators" class="container carousel slide container " data-ride="carousel" >
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row">
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Jonh Joe</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  <a class="pr-3" href="#">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <div class="media-body">
+                    <h5 class="mt-2 mb-1">Adem Smith</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Rott Bujie</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  <a class="pr-3" href="#"></a>
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <div class="media-body">
+                    <h5 class="mt-0">jonney</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-
+       
       </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Jonh Joe</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                  
+                  <div class="media-body">
+                    <h5 class="mt-2">Adem Smith</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Rott Bujie</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  <a class="pr-3" href="#"></a>
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <div class="media-body">
+                    <h5 class="mt-0">jonney</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="row">
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Jonh Joe</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  <a class="pr-3" href="#">
+                    <i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <div class="media-body">
+                    <h5 class="mt-2">Adem Smith</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="media">
+              <i class="fa fa-user-o" aria-hidden="true"></i>
+              <div class="media-body">
+                <h5 class="mt-0">Rott Bujie</h5>
+                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+            
+                <div class="media mt-3">
+                  <a class="pr-3" href="#"></a>
+                  <i class="fa fa-user-o" aria-hidden="true"></i>
+                  </a>
+                  <div class="media-body">
+                    <h5 class="mt-0">jonney</h5>
+                    Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
 
     <!-- About us section ended -->
-    
-    <!-- services section start -->
-
-
-<div  class="services-sec">
+<!-- our skills section started -->
+<div class="container-fluid">
   <div class="row">
-          
-    <div class=" services-details col-md-12  col-sm-12">
-      <h1> Our <span style="color:#668E1A">Services</span></h1>
-      <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+    <div class="col"></div>
+    <div class="col-md-8">
+      <div class=" services-details " style="background-color: white!important;">
+        <h1> Our <span style="color:#668E1A">Skills</span></h1>
+        <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+      </div>
     </div>
-   
+    <div class="col"></div>
   </div>
+    
 
-  <div class="container service">
-    <div class="row">
-      <div class="col-md-3 col-sm-12 service-icon">
-        <div class="service-icons">
-          <i class="fa fa-star-o " aria-hidden="true"></i>
-        </div>
-        <div class="service-details">
-          <h3>MERN Stack</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-          <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
-        </div>
-        
+    <div class="main-prograss">
+      <div class=" container row">
       
-      </div>
-      <div class="col-md-3 col-sm-12 service-icon">
-        <div class="service-icons">
-          <i class="fa fa-star-o " aria-hidden="true"></i>
-        </div>
-        <div class="service-details">
-          <h3>Web Application</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-          <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
-        </div>
-        
-      
-      </div>
-      <div class="col-md-3 col-sm-12 service-icon">
-        <div class="service-icons">
-          <i class="fa fa-star-o " aria-hidden="true"></i>
-        </div>
-        <div class="service-details">
-          <h3>Serverless Aws</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-          <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
-        </div>
-        
-      
-      </div>
-      <div class="col-md-3 col-sm-12 service-icon">
-        <div class="service-icons">
-          <i class="fa fa-star-o " aria-hidden="true"></i>
-        </div>
-        <div class="service-details">
-          <h3>DevOps</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo vel consequatur</p>
-          <a href="#" style="color:#6B9221;margin-bottom:10px">Read More</a>
-        </div>
-        
-      
-      </div>
-      
-    </div>
-  
-  </div>
-
-  
-</div>
-
-      <!-- services section ended -->
-
-
-      <!-- Portfolio section start -->
-
-      <div class="portfilo-main">
-
-        <div class="row">
           
-
-          <div class=" services-details col-md-12  col-sm-12">
-            <h1 style="color:white"> Our  <span style="color:#668E1A">Porfolio</span></h1>
-            <p style="text-align: center;padding:20px 100px 20px 100px;color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
-          </div>
-
+            
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress blue">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">45%</div>
+                    </div>
+                    <h4 style="margin-top:20px;text-align: center;">DevOps</h4>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="progress yellow">
+                        <span class="progress-left">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <span class="progress-right">
+                            <span class="progress-bar"></span>
+                        </span>
+                        <div class="progress-value">60%</div>
+                    </div>
+                    <h4 style="margin-top:20px;text-align: center;">MERN Stack</h4>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                  <div class="progress blue">
+                      <span class="progress-left">
+                          <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                          <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">75%</div>
+                  </div>
+                  <h4 style="margin-top:20px;text-align: center;">AWS Serverless</h4>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                  <div class="progress yellow">
+                      <span class="progress-left">
+                          <span class="progress-bar"></span>
+                      </span>
+                      <span class="progress-right">
+                          <span class="progress-bar"></span>
+                      </span>
+                      <div class="progress-value">80%</div>
+                
+                  </div>
+                  <h4 style="margin-top:20px; text-align: center;">Cloud Computing</h4>
+              </div>
+            </div>
         </div>
-         
-        <ul class="nav nav-pills mb-3 container" id="pills-tab" role="tablist">
-          <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab"
-                  aria-controls="pills-home" aria-selected="true">WEB DESIGN</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab"
-                  aria-controls="pills-profile" aria-selected="false">GRAPHIC DESIGN</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-contact" role="tab"
-                  aria-controls="pills-contact" aria-selected="false">BRANDING</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-logo" role="tab"
-                  aria-controls="pills-contact" aria-selected="false">LOGO</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-marketing" role="tab"
-                  aria-controls="pills-contact" aria-selected="false">MARKETING</a>
-          </li>
-          <li class="nav-item" role="presentation">
-              <a class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" href="#pills-advertisement" role="tab"
-                  aria-controls="pills-contact" aria-selected="false">ADVERTUSMENT</a>
-          </li>
-      </ul>
-  
-      <div class="tab-content container" id="pills-tabContent">
-          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-              <div class="port">
-                  <img src="./images/w1.jpg" alt="img">
-                  <img src="./images/w2.jpg" alt="img">
-                  <img src="./images/w3.jpg" alt="img">
-                  <img src="./images/w4.jpg" alt="img">
-              </div>
-              <div class="port">
-                  <img src="./images/w5.jpg" alt="img">
-                  <img src="./images/w6.jpg" alt="img">
-                  <img src="./images/w7.jpg" alt="img">
-                  <img src="./images/w8.jpg" alt="img">
-              </div>
-          </div>
-          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-              <div class="port">
-                  <img src="/images/g1.jpg" alt="img">
-                  <img src="./images/g2.jpg" alt="img">
-                  <img src="./images/g3.jpg" alt="img">
-                  <img src="./images/g4.png" alt="img">
-              </div>
-              <div class="port">
-                  <img src="./images/g5.jpg" alt="img">
-                  <img src="./images/g7.jpg" alt="img">
-                  <img src="./images/g8.jpg" alt="img">
-                  <img src="./images/g6.png" alt="img">
-              </div>
-          </div>
-          <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <div class="port">
-                  <img src="./images/b1.jpg" alt="img">
-                  <img src="./images/b2.png" alt="img">
-                  <img src="/images/b3.jpg" alt="img">
-                  <img src="./images/b4.png" alt="img">
-              </div>
-              <div class="port">
-                  <img src="./images/b5.jpg" alt="img">
-                  <img src="./images/b6.jpg" alt="img">
-                  <img src="./images/b7.png" alt="img">
-                  <img src="./images/b8.jpg" alt="img">
-              </div>
-          </div>
-          <div class="tab-pane fade" id="pills-logo" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <div class="port">
-                <img src="./images/logo1.png" alt="img">
-                <img src="./images/logo2.png" alt="img">
-                  <img src="./images/logo3.png" alt="img">
-                  <img src="./images/logo4.png" alt="img">
-              </div>
-              <div class="port">
-                  <img src="./images/logo5.png" alt="img">
-                  <img src="./images/logo6.png" alt="img">
-                  <img src="./images/logo7.png" alt="img">
-                  <img src="./images/logo8.png" alt="img">
-              </div>
-          </div>
-          <div class="tab-pane fade" id="pills-marketing" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <div class="port">
-                  <img src="./images/m1.png" alt="img">
-                  <img src="./images/m2.jpg" alt="img">
-                  <img src="./images/m3.jpg" alt="img">
-                  <img src="./images/m4.png" alt="img">
-              </div>
-          </div>
-          <div class="tab-pane fade" id="pills-advertisement" role="tabpanel" aria-labelledby="pills-contact-tab">
-              <div class="port">
-                  <img src="./images/a1.jpg" alt="img">
-                  <img src="./images/a2.jpg" alt="img">
-                  <img src="./images/a3.jpg" alt="img">
-                  <img src="./images/a4.jpg" alt="img">
-              </div>
-              <div class="port">
-                  <img src="./images/a5.jpg" alt="img">
-                  <img src="./images/a6.jpg" alt="img">
-                  <img src="./images/a7.jpg" alt="img">
-                  <img src="./images/a8.jpg" alt="img">
-              </div>
-          </div>
       </div>
-        
+    <!-- our skills section ended -->
+   <!-- quotation section start -->
+<div class=" container-fluid main-quote">
+  <h1 style="text-align: center;color: white;padding:40px">START YOUR NEW PROJECT</h1>
+<div class="row">
+
+
+  <div class="col " >
+    <div class="form " style="position: relative;">
+    <form>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label"></label>
+        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
        
-        
+        <label for="exampleInputPassword1" class="form-label"></label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
 
-      </div>  
-      
-
-      <!-- porfoilo section ended -->
-
-
-      <!-- process section start -->
-
-      <div  class=" process">
-        <div class=" services-details col-md-12  col-sm-12">
-          <h1> Our <span style="color:#668E1A">Process</span></h1>
-          <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
-        </div>
-      
-      <div class="container inner-proces">
-      <div class="row">
-        <div class="col">
-          <span class="number">1</span>
-          <div class="img-outer">
-            <img src="./images/process-1.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">REQUEST CALL</h6>
-            <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-        <div class="col">
-          <span class="number">2</span>
-          <div class="img-outer">
-            <img src="./images/consultation.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">CONSULTATION</h6>
-          <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-        <div class="col">
-          <span class="number">3</span>
-          <div class="img-outer">
-            <img src="./images/planing.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">PLANING</h6>
-          <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-        <div class="col">
-          <span class="number">4</span>
-          <div class="img-outer">
-            <img src="./images/work-process.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">WORK PROCESS</h6>
-          <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-        <div class="col">
-          <span class="number">5</span>
-          <div class="img-outer">
-            <img src="./images/correcting.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">CORRECTING</h6>
-          <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-        <div class="col">
-          <span class="number">6</span>
-          <div class="img-outer">
-            <img src="./images/deliver.png"/>
-          </div>
-          <h6 style="text-align: center;margin-top:10px">DELIVER</h6>
-          <p style="text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing </p>
-        </div>
-
+        <label for="exampleInputPassword1" class="form-label"></label>
+        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Your Number">
+        <button type="submit" class="btn btn-primary">SEND REQUEST</button>
       </div>
-      </div>
-<!-- process section ended -->
-
-<!-- People About Us start -->
-<div class="main-about">
-<div class=" services-details col-md-12  col-sm-12">
-  <h1> People <span style="color:#668E1A">About Us</span></h1>
-  <p style="padding:0 200px 0 200px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
-</div>
-
-<div id="carouselExampleIndicators" class="container carousel slide container " data-ride="carousel" >
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="row">
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Jonh Joe</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                <a class="pr-3" href="#">
-                  <i class="fa fa-user-o" aria-hidden="true"></i>
-                </a>
-                <div class="media-body">
-                  <h5 class="mt-2 mb-1">Adem Smith</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Rott Bujie</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                <a class="pr-3" href="#"></a>
-                <i class="fa fa-user-o" aria-hidden="true"></i>
-                </a>
-                <div class="media-body">
-                  <h5 class="mt-0">jonney</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    
      
-    </div>
-    <div class="carousel-item">
-      <div class="row">
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Jonh Joe</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                
-                  <i class="fa fa-user-o" aria-hidden="true"></i>
-                
-                <div class="media-body">
-                  <h5 class="mt-2">Adem Smith</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Rott Bujie</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                <a class="pr-3" href="#"></a>
-                <i class="fa fa-user-o" aria-hidden="true"></i>
-                </a>
-                <div class="media-body">
-                  <h5 class="mt-0">jonney</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <div class="row">
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Jonh Joe</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                <a class="pr-3" href="#">
-                  <i class="fa fa-user-o" aria-hidden="true"></i>
-                </a>
-                <div class="media-body">
-                  <h5 class="mt-2">Adem Smith</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col">
-          <div class="media">
-            <i class="fa fa-user-o" aria-hidden="true"></i>
-            <div class="media-body">
-              <h5 class="mt-0">Rott Bujie</h5>
-              Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-          
-              <div class="media mt-3">
-                <a class="pr-3" href="#"></a>
-                <i class="fa fa-user-o" aria-hidden="true"></i>
-                </a>
-                <div class="media-body">
-                  <h5 class="mt-0">jonney</h5>
-                  Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </form>      
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-</div>
-<!-- people about us ended -->
+  <p style="text-align: center;margin-top:50px;color: white;margin-bottom:30px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellendus architecto, voluptatibus quod dignissimos autem cupiditate perferendis accusamus ab, deleniti dicta amet culpa incidunt laboriosam. Ipsa nostrum unde dolore similique?</p>
 
-<!-- our skill section started -->
-
-<div class=" services-details col-md-12  col-sm-12">
-  <h1> Our <span style="color:#668E1A">Skills</span></h1>
-  <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
-</div>
-<div class="main-prograss">
-<div class=" container row">
-
-    
-      
-          <div class="col-md-3 col-sm-6">
-              <div class="progress blue">
-                  <span class="progress-left">
-                      <span class="progress-bar"></span>
-                  </span>
-                  <span class="progress-right">
-                      <span class="progress-bar"></span>
-                  </span>
-                  <div class="progress-value">45%</div>
-              </div>
-              <h4 style="margin-top:20px;text-align: center;">DevOps</h4>
-          </div>
-          <div class="col-md-3 col-sm-6">
-              <div class="progress yellow">
-                  <span class="progress-left">
-                      <span class="progress-bar"></span>
-                  </span>
-                  <span class="progress-right">
-                      <span class="progress-bar"></span>
-                  </span>
-                  <div class="progress-value">60%</div>
-              </div>
-              <h4 style="margin-top:20px;text-align: center;">MERN Stack</h4>
-          </div>
-          <div class="col-md-3 col-sm-6">
-            <div class="progress blue">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">75%</div>
-            </div>
-            <h4 style="margin-top:20px;text-align: center;">AWS Serverless</h4>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="progress yellow">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">80%</div>
-          
-            </div>
-            <h4 style="margin-top:20px; text-align: center;">Cloud Computing</h4>
-        </div>
-      </div>
   </div>
-    
-  
-<!-- our skill section ended -->
-
-
-<!-- quotation section start -->
-<div class="  main-quote">
-    <h1 style="text-align: center;color: white;padding:40px">START YOUR NEW PROJECT</h1>
-  <div class="row">
-
-  
-    <div class="col " >
-      <div class="form ">
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"></label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email">
-         
-          <label for="exampleInputPassword1" class="form-label"></label>
-          <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Your Name">
-  
-          <label for="exampleInputPassword1" class="form-label"></label>
-          <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Your Number">
-          <button type="submit" class="btn btn-primary">SEND REQUEST</button>
-        </div>
-      
-       
-      </form>      
-    </div>
-    <p style="text-align: center;margin-top:50px;color: white;margin-bottom:30px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, repellendus architecto, voluptatibus quod dignissimos autem cupiditate perferendis accusamus ab, deleniti dicta amet culpa incidunt laboriosam. Ipsa nostrum unde dolore similique?</p>
-
-    </div>
-  </div>
+</div>
 
 
 </div>
 <!-- quotation section ended -->
-
-<!-- contact section start -->
-<div class="main-contact">
-  <div class=" services-details col-md-12  col-sm-12">
-    <h1> Our <span style="color:#668E1A">Contact</span></h1>
-    <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+<div class=" container-fluid main-contact" style="background-color: white!important;">
+  <div class="row">
+    <div class="col"></div>
+    <div class="col-md-8">
+      <div class=" services-details ">
+        <h1> Our <span style="color:#668E1A">Contact</span></h1>
+        <p style="text-align: center;padding:20px 100px 20px 100px">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo dolores fugit, magni laudantium minima officia adipisci voluptate quod in aliquam, culpa, nulla esse incidunt officiis. Fuga sit amet ab nostrum!</p>
+      </div>
+    </div>
+    <div class="col"></div>
   </div>
-  <div class="contact-info">
+  
+  <div class="contact-info" >
   <p style="text-align: center;"> <i class="fa fa-map-marker" aria-hidden="true" style="color:#668E1A ;font-size: 20px; margin-right:20px"></i>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi dignissimos minus nobis ratione minima </p> 
 </div>
-<div class="container">
+<div class="container" >
   <div class="row">
     <div class="col-sm">
       <p style="text-align: center;"> <i class="fa fa-phone" aria-hidden="true" style="color:#668E1A ;font-size: 20px; margin-right:20px"></i>+921234455667 </p> 
@@ -761,114 +908,93 @@
 
 
 <!-- contact section ended -->
-
 <!-- footer section start -->
 <footer>
 
-<div class="  footer-main " style="background-color: #668E1A;">
-  <div class="container" >
-  <div class=" row">
-    <div class="col-md-3 col-sm-12">
-      <img src="./images/logo-color.png" style="margin-top:10px;"> 
-      <p style="text-align: justify; margin-top:20px;color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio qui ratione possimus dolores autem dolorum tempora ipsa culpa, consequatur cumque et temporibus sunt rem neque perspiciatis, odit minus, cum dolore.</p>
-      <p style="margin-top:100px; color:white"> &#169Panacloud 2019</p>
-    </div>
-    <div class="col-md-3 col-sm-12">
-      <div class="footer-service">
-        <h4>Services</h4>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-
+  <div class="  footer-main " style="background-color: #668E1A;">
+    <div class="container" >
+    <div class=" row">
+      <div class="col-md-3 col-sm-12">
+        <img src="./images/logo-color.png" style="margin-top:10px;"> 
+        <p style="text-align: justify; margin-top:20px;color:white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio qui ratione possimus dolores autem dolorum tempora ipsa culpa, consequatur cumque et temporibus sunt rem neque perspiciatis, odit minus, cum dolore.</p>
+        <p style="margin-top:100px; color:white"> &#169Panacloud 2019</p>
+      </div>
+      <div class="col-md-3 col-sm-12">
+        <div class="footer-service">
+          <h4>Services</h4>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+  
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-12">
+  
+        <div class="footer-useful">
+          <h4>Useful Links</h4>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+          <li>lorem ispsum</li>
+  
+        </div>
+  
+      </div>
+      <div class="col-md-3 col-sm-12">
+  
+        <div class="footer-useful">
+          <h4>Contact Us</h4>
+          <div style="border-left: 2px solid #80B332">
+         <p style="text-align: center;margin-top: 15px;"> <i class="fa fa-phone" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i>+921234455667 </p>
+         <p style="text-align: center;"> <i class="fa fa-phone" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i>+921234455667 </p>
+         <p style="text-align: center;"> <i class="fa fa-envelope-o" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i><a href="mailto:">Example@gmail.com</a> </p>
+  
+         <h3 style="margin-top: 120px;">Follow Us</h3>
+         <div class="left-icon">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+          <i class="fa fa-instagram" aria-hidden="true"></i>
       </div>
     </div>
-    <div class="col-md-3 col-sm-12">
-
-      <div class="footer-useful">
-        <h4>Useful Links</h4>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-        <li>lorem ispsum</li>
-
+  
+        </div>
+  
       </div>
-
-    </div>
-    <div class="col-md-3 col-sm-12">
-
-      <div class="footer-useful">
-        <h4>Contact Us</h4>
-        <div style="border-left: 2px solid #80B332">
-       <p style="text-align: center;margin-top: 15px;"> <i class="fa fa-phone" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i>+921234455667 </p>
-       <p style="text-align: center;"> <i class="fa fa-phone" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i>+921234455667 </p>
-       <p style="text-align: center;"> <i class="fa fa-envelope-o" aria-hidden="true" style="color:white ;font-size: 20px; margin-right:20px"></i><a href="mailto:">Example@gmail.com</a> </p>
-
-       <h3 style="margin-top: 120px;">Follow Us</h3>
-       <div class="left-icon">
-        <i class="fa fa-facebook" aria-hidden="true"></i>
-        <i class="fa fa-twitter" aria-hidden="true"></i>
-        <i class="fa fa-linkedin" aria-hidden="true"></i>
-        <i class="fa fa-instagram" aria-hidden="true"></i>
     </div>
   </div>
-
-      </div>
-
-    </div>
   </div>
-</div>
-</div>
+  
+  </footer>
+  
+  
+  <!-- footer section ended -->
 
-</footer>
-
-
-<!-- footer section ended -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      
-    <!-- Optional JavaScript -->
+    <!-- Optional JavaScript; choose one of the two! -->
     <script>
-      var firstTabEl = document.querySelector('#myTab li:last-child a')
-      var firstTab = new bootstrap.Tab(firstTabEl)
-    
-      firstTab.show()
-    </script>
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        var firstTabEl = document.querySelector('#myTab li:last-child a')
+        var firstTab = new bootstrap.Tab(firstTabEl)
+      
+        firstTab.show()
+      </script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    -->
   </body>
 </html>

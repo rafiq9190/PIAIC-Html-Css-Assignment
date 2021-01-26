@@ -1,101 +1,118 @@
 *{
-    padding:0;
-    margin:0;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comfortaa', cursive;
 }
-
-
-
 body{
-
     font-family: 'Comfortaa', cursive;
 }
 
-.left-list{
-    background-color: #212121;
+.left-icon{
+    display: inline-block;
+    padding-left:20px;
+    padding-top:0px;
+    font-size: 20px;
+   
 
 }
-.icons-list{
-    padding-left:5px;
-}
-.left-icon >.fa{
-    color:white;
+.left-icon i{
     margin:10px;
-    padding-left:1px;
-    padding:10px;
     background-color: #303030;
-    border-radius: 20px;
-    text-align: center;
-    font-size: 25px;
+    padding:15px;
+    border-radius:33px;
+    color:white;
 }
-.left-icon >.fa:hover{
+.left-icon i:hover{
     background-color: white;
     color:#303030;
-
 }
 .right-icon{
-    
-    padding-top:10px;
-}
+    display: inline;
+    float: right;
+    padding: 15px 30px 10px 0;
+    background-color: #212529;
 
-.right-icon > .fa{
-font-size: 20px;
+
+}
+.right-icon .fa{
 color:#A2D84C;
-display: inline;
-margin:10px;
+margin:5px;
+
 }
 .btn{
     background-color: #A2D84C;
-
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
 }
-/* end styling icon section */
 
-nav .nav-item a{
+/* NAV stying start */
+.nav li a{
     font-size: 18px;
-    font-weight: 400;
-    margin:5px;
-    
+    font-weight: 700;
+    color:black !important;
 }
-
-nav .nav-item a:hover{
+.nav li a:hover{
     border-bottom: 3px solid #A2D84C;
-    font-weight: bolder;
+    font-weight:bolder!important;
 }
 
-/* slider styling start */
-.carousel-inner {
+@media (min-width: 360px)
+ {  
+    .navbar-brand{
+        padding-top:60px!important;
+        text-align: center!important;
+    }
+    .carousel-caption{
+        padding-bottom: -0.75rem!important;
+    }
+ }
+
+/* slider styling */
+.slider-main{
     position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding: 0px!important;
+}
+.btn-slider{
+    background-color: #F2BC13;
+    border: none;
+    font-size: 18px;
+    padding:5px;
+}
+.carousel-caption{
+    position: relative;
+    transform: translateY(50%);
     
 }
-.carousel-caption {
-    margin-top: 30px;
-}
-.carousel-caption>.slide-btn{
-    background-color: rgb(242,188,19);
-    padding:10px;
-    border-radius: 5px;
-    font-weight: 600;
+.carousel-caption h5 
+{
+    font-size: 20px;
+    font-weight: 500;
 }
 
-/* advantage section styling */
+@media (min-width: 360px)
+ {
+    .carousel-caption{
+        position: absolute;
+        top: -135px;
+        font-size: smaller!important;
+    }  
 
-.Advantage-sec{
-    padding:30px 0 20px 0;
-}
-.advantage-details{
+
+/* why us stying */
+.advantage-details h1{
+    padding:15px 15px;
     text-align: center;
 }
-.why-reason{
-    padding:20px 5px 20px 84px
-}
-.why-reason >div{
+.why-section-inner div{
     text-align: center;
+
 }
-.why-reason > div p{
+.why-section-inner div p{
     padding-top:20px;
 }
+
+}
+
 
 /* About Us styling */
 
@@ -104,6 +121,7 @@ nav .nav-item a:hover{
     background-image: url('./images/background.png');
     background-position: right;
     background-repeat: no-repeat;
+
 
     
 }
@@ -119,10 +137,12 @@ nav .nav-item a:hover{
     border: none;
 }
 
-/* services stying */
+    
+/* Service section stying */
 .services-details{
     text-align: center;
     padding: 25px 0 10px 0;
+  
 }
 .service{
     text-align: center;
@@ -161,10 +181,7 @@ nav .nav-item a:hover{
     margin-top:32px;
 }
 
-
-
-/* Porfolio styling */
-
+/* Portfoilio section stying */
 .portfilo-main{
     background-color: #212121;
 }
@@ -177,85 +194,21 @@ nav .nav-item a:hover{
     justify-content: center;
     color:white!important;
 }
-.nav-pills a{
-    color:white;
+.nav > .nav-link{
+    color:white!important;
 }
-
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff!important;
+    background-color: #0d6efd;
+}
+.nav-pills .nav-link {
+    border-radius: .25rem;
+    color: white!important;
+}
+/* process section started */
 .process {
     margin-bottom: 100px !important;
 }
-
-.pics {
-    margin-top: -12px;
-}
-
-.pics5 {
-    position: absolute;
-    margin-top: -14px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #000;
-}
-
-.pics1 {
-    position: absolute;
-    height: 40px;
-    width: 40px;
-    border-radius: 50%;
-    margin-top: -19px;
-    background-color: rgba(252, 116, 5, 0.61);
-}
-
-.pics10 {
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    margin-top: -16px;
-    background-color: rgb(252, 116, 5);
-}
-
-.pics3 {
-    position: absolute;
-    width: 150px;
-    align-items: center;
-    margin-top: -170px;
-    text-align: center;
-    margin-left: 30px;
-    margin-right: 10px;
-
-}
-
-.pics13 {
-    position: absolute;
-    width: 150px;
-    align-items: center;
-    margin-top: 45px;
-    text-align: center;
-    margin-left: -15px;
-    margin-right: 10px;
-
-}
-
-.pics30 {
-
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-
-    width: 150px;
-    align-items: center;
-    margin-top: -110px;
-    text-align: center;
-    margin-left: -14px;
-    font-size: 60px;
-    color: green;
-    /* margin-right: 10px; */
-
-}
-
-/* process stying start */
-
 .img-outer{
     
     display: flex;
@@ -285,33 +238,12 @@ nav .nav-item a:hover{
     margin-bottom:20px;
 }
 
-
-
-/* people about us stying */
-.main-about{
-    background-color: #F1F2F2;
-}
-.media i{
-    background-color: white;
-    padding:20px;
-    border-radius: 30px;
-    
-    
-}
-.media-body{
-    margin-left: 20px;
-}
-.carousel-inner {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    padding: 91px;
-}
-/* skills stying */
+/* skills styling section */
 .main-prograss{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
+    background-color: white!important;
 }
 .progress{
     width: 150px;
@@ -463,11 +395,10 @@ nav .nav-item a:hover{
     .progress{ margin-bottom: 20px; }
 }
 
-
 /* QUOTATION STYING */
 .main-quote{
     background-color: #8DC63F;
-     height: 90vh;;
+     height: 75vh;;
 }
 .form-control {
     display: initial;
@@ -485,6 +416,7 @@ nav .nav-item a:hover{
 .form{
     display: flex;
     justify-content: center;
+    position: relative;
 
 }
 .form button{
@@ -493,15 +425,18 @@ nav .nav-item a:hover{
     /* display: inline-flex; */
     margin-top: 10px;
     display: block;
-    width: 13%;
-    left: 553px;
+    
+    left: 285px!important;
+    top: 25px;
     background-color: #F2BC13!important;
     border: none;
 };
 
 /* contact section stying */
 
-
+.main-contact{
+    background-color: white!important;
+}
 /* footer styling */
 .footer-main{
     background-color: #668E1A;
@@ -530,3 +465,21 @@ nav .nav-item a:hover{
     list-style: none;
     color:white
 }
+
+
+
+@media (min-width: 360px) { 
+
+
+    .services-details p{
+        padding:0 25px 0 40px !important;
+    }
+    .form button{
+        position: relative;
+        left:190px!important;
+        top:40px;
+    }
+    .card{
+        margin-top:10px !important;
+    }
+ }
